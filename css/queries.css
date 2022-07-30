@@ -1,0 +1,486 @@
+@media (max-width: 1230px) {
+    #into_parent {
+        width: 100%;
+    }
+
+      /* ----------------------section-2 service------------------- */
+
+    #section--2{
+    height: 141rem;    
+    }
+
+    .services-list{
+     grid-template-columns: repeat(3,1fr);
+
+    }
+
+    .services__container {
+    padding: 0 4rem;
+    }
+
+
+
+}
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+@media (max-width: 1024px) {
+
+    .section{
+        width: 100%;
+        margin:auto;
+    }
+/* ---------------------------into------------------------- */
+
+    #into_parent {
+        gap: 50px;
+    }
+
+    /* ---------------------ssection-0---------------------- */
+
+    .servide_grid {
+        grid-gap: 0;
+        gap: 25px;
+        grid-template-columns: auto auto;
+    }
+      
+    .hidden__grid__box{
+        display: none;
+    }
+
+    .grid__box {
+        font-weight: 600;
+    }
+
+    .font {
+      margin-left: 15px;
+    }
+    /* -----------------------sec-2------------------ */
+
+    .services__container {
+        padding: 0px 0rem;
+    }
+
+
+    /* ----------------------section-11---------------------------- */
+
+
+    .how_work_detail {
+        font-size: 18px;
+    }
+
+    /* ----------------why us------------------------*/
+    .why_desc {
+        margin: 35px 25px 0 25px;
+    }
+
+}
+
+
+
+@media (max-width: 881px) {
+
+
+    
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 60vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+ 
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  } 
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }  
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+    color: black;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+
+/* header icon */
+
+.header__ico {
+    display: none;
+}
+
+
+  /* ----------------------header---------------------- */
+
+  .header {
+    padding: 0 2.5rem;
+  }
+
+
+  /* -----------------------------into------------------------------- */
+    .intro_text {
+        font-size: 2.2rem;
+    }
+
+    .intro_text_div {
+     width: 100%;
+    margin-left: 4rem;
+    }
+
+    /* --------------------------how we work------------------------ */
+
+    .features__img {
+        width: 90%;
+        justify-self: center;
+        align-self: center;
+    }
+    /* --------------------------------service sec-2-------------------------- */
+
+    #section--2{
+     height: 174rem;    
+    }
+      
+    .services__container {
+    padding: 0 3rem;
+    }
+      
+    .services-list {
+    grid-template-columns: repeat(2,1fr);
+    }
+
+
+    /* --------------------------- mis_vis----------------------------- */
+    .squre_head {
+        margin: 10px auto auto;
+    }
+
+    .squre_desc {
+        width: 95%;
+    }
+
+    .mission_parent, .vision_parent {
+     height: 105%;
+    }
+
+    
+}
+
+/* ======================================================= */
+
+@media (max-width: 705px) {
+
+    .sec-title {
+
+        text-align: center;
+    }
+
+
+    /* ----------------------intro----------------------- */
+    #into_parent {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+ 
+    .intro_text_div {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    /* -----------------------section-1------------------------- */
+
+    .servide_grid {
+
+        grid-template-columns: auto;
+    }
+
+
+    /* ---------------------------feature------------------- */
+
+    .features {
+        grid-template-columns: auto;
+        row-gap: 5rem;
+        padding: 0;
+        padding-bottom:14rem;
+    }
+
+    .features__img {
+        width: 50%;
+        margin-top: 19rem;
+    }
+
+    .features__header {
+        margin-bottom: 5rem;
+        justify-content: center;
+        display: flex;
+    }
+
+
+    .features__feature {
+        width: 67%;
+    }
+    /* ---------------------service---------------------------- */
+
+    .hidden_service_parent{
+        display:none;
+    }
+
+
+    .services_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+    }
+
+    .service_parent {
+        margin: auto;
+        width: 90%;
+    }
+
+    .round_service {
+        height: 130px;
+        width: 129px;
+    }
+
+    .round_title {
+        margin: 18px 0px auto;
+    }
+
+    /* -----------  section-1 how we work--------------- */
+
+
+    .how_work_parent {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+        height: 90%;
+      }
+
+     .how_work_dive {
+     height: 400px;
+     }
+    .how_work_detail {
+        margin: 26px 43px 0 43px;
+    }
+
+
+    /* ------------section-3------------ */
+
+    #section--3 {
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .why_we_img {
+        display: none;
+    }
+
+    .why_desc {
+        margin: 0 ;
+        margin-top: 35px;
+    }
+
+    /* ----------- mis_vis----------- */
+
+    .mis__vis__container {
+        height: 970px;
+        flex-direction: column;
+        width: 100%;
+      }
+
+
+      .mission_parent, .vision_parent {
+        width: 95%;
+      
+      }
+      
+      .squre_head {
+        margin: 7px auto auto;
+      }
+      
+      
+      .squre_desc {
+        padding: 12px;
+        width: 91%;
+      }
+
+
+      /* ----------footer-------------- */
+
+    .grid {
+        column-gap: 7.5rem;
+    }
+}
+
+
+@media (max-width: 640px) {
+
+
+    /* ----------------------section-2-------------- */
+
+    .services-list {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+      .services__container {
+        padding: 0;
+        width: 70%;
+    }
+    
+      #section--2 {
+        height: 327rem;
+    }
+
+
+    /* ---------------feature section-1------------------- */
+
+    .features__feature {
+        width: 80%;
+    }
+
+    .features__img {
+        width: 70%;
+    }
+
+    .features__header {
+        font-size: 2.5rem;
+    }
+
+    /* ------------------------------------------ */
+
+    .why_desc {
+        font-weight: bold;
+    }
+}
+
+
+
+
+/* ====================================================================== */
+
+
+
+
+@media (max-width: 410px) {
+
+
+/* ---------------------section-0----------------- */
+
+.grid__box {
+    height: 255px;
+    width: 287px;
+}
+
+.title__card {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+/* ---------------------setion-1--------------------- */
+
+
+.features__img {
+    margin-top: 11rem;
+}
+
+
+.feature__dis {
+    font-size: 1.8rem;
+}
+
+
+
+/* ------------------------service---------------------- */
+#section--2 {
+    padding: 5rem 2.5rem;
+}
+
+.services__container {
+  
+    width: 100%;
+}
+
+
+
+/* ----------------section-4 why us-------------------- */
+.why_desc {
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+.why_desc_prnt {
+    width: 80%;
+}
+
+/* ------------------mis_vis------------------------- */
+.mis__vis__container {
+    height: 1150px;
+}
+.mission_parent, .vision_parent {
+    width: 100%;
+}
+
+.squre_desc {
+    font-size: 2rem;
+}
+/* --------------------footer--------------------- */
+
+.grid--footer {
+    grid-template-columns: 1fr;
+}
+
+.footer p, a {
+
+    text-align: center;
+}
+.footer__name {
+    margin-bottom: 42px;
+}
+
+.copyright {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+}
